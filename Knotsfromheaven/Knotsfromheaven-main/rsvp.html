@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="images\favicon.png" type="image">
+
+  <title>Knots from heaven - RSVP</title>
+  
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <link rel="stylesheet" href="css/animate.css">
+</head>
+
+
+<body>
+  
+  <nav id="global-nav" class="navbar is-fixed-top is-transparent">
+    <div class="container">
+      <div class="navbar-brand">
+        
+        <a href="index.html"><img src="images\logo.png" ></a>
+      </div>
+      <div id="main-menu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="couple.html">
+            <strong>The Couple</strong>
+          </a>
+          <a class="navbar-item" href="schedule.html">
+            <strong>Schedule</strong>
+          </a>
+          <a class="navbar-item" href="travel.html">
+            <strong>Travel & Accomodations</strong>
+          </a>
+          <a class="navbar-item is-active" href="rsvp.html">
+            <strong class="tag is-size-6 is-link">RSVP</strong>
+          </a>
+          <a class="navbar-item" href="faq.html">
+            <strong>FAQs</strong>
+          </a>
+          <a class="navbar-item" href="loginsignup\index.html" target="_blank">
+            <strong>Login/Signup</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section id="rsvp" class="hero section is-fullheight">
+    <div class="columns is-centered">
+      <div class="column is-6">
+        <br>
+        <br class="is-hidden-mobile">
+        <br class="is-hidden-mobile">
+        <br class="is-hidden-mobile">
+        <span class="is-size-2 rsvp-label-2">
+          <strong id="rsvp-title">Say You'll Be There!</strong>
+        </span>
+        <br>
+        <br>
+
+        <div id="rsvp-box" class="box">
+          <div id="rsvp-initial">
+            <div class="field">
+              <label class="label-is-medium">Let's find your RSVP</label>
+              <div class="control">
+                <input type="email"  id="email-input" class="input is-medium" placeholder="Email address" required>
+              </div>
+              <p id="help-message" class="help">Enter the email address where you want the invitation</p>
+              <div class="field">
+                <p class="control">
+                  <button id="check-email" onclick="checkEmail()" class="button is-link is-medium">
+                    Continue
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="is-size-7">
+      <center>
+        <p id="feedbackform">Tell us your experience by filling out the <a href="https://docs.google.com/forms/d/e/1FAIpQLScNsXDUdMOFyyY_Z1qOdcXGzeVKlTvIejal2n_ccjsgBQ4RdQ/viewform?vc=0&c=0&w=1&flr=0" target="_blank">feedback form</a> :)</p>
+        Designed & developed with love by Knots from heaven
+        <br> For any questions and/or concerns please email
+        <a href="mailto:rishabh1428.be20@chitkara.edu.in">knotsfromheaven@gmail.com</a>
+      </center>
+    </div>
+  </section>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="../node_modules/airtable/build/airtable.browser.js"></script>
+  <script src="js/scroll-animations.js"></script>
+  <script src="js/rsvp.js"></script>
+  <script src="js/navigation.js"></script>
+</body>
+
+</html>
